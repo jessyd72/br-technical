@@ -14,7 +14,6 @@ Optional:
     - Find fires that are within 5 km of a border
 '''
 
-from cmath import log
 import arcpy
 import csv
 from datetime import datetime
