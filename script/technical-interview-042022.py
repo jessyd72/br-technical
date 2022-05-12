@@ -163,7 +163,7 @@ if __name__ == '__main__':
 
     try:
         logPrint(f'Finding point count by {country_id}')
-        getFiresByCountry(fire_csv, x_fld, y_fld, confidence_fld, country_bnd, country_id, out_csv_path, False, False)
+        getFiresByCountry(fire_csv, x_fld, y_fld, confidence_fld, country_bnd, country_id, out_csv_path, True, True)
 
     except PermissionError as e:
         logPrint("PERMISSION ERROR", 'err', e)
